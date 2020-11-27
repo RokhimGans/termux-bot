@@ -13,12 +13,12 @@ const tambahan = require("./lib/tambahan.js")
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = '😎 Rokhim BOT 😎'; //ini nama bot lo
-const instagram = 'https://www.instagram.com/kreasi.editing_official/';  //ini nama ig lo
+const BotName = 'BOT_STYLE'; //ini nama bot lo
+const instagram = 'https://www.instagram.com/Beni_230/';  //ini nama ig lo
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; //ini kapan bot lo on
-const youtube = 'https://m.facebook.com/kreasiediting_official-106190011317292/?ref=bookmarks';//ini channel YouTube lo
-//const grupch1 = 'https://chat.whatsapp.com/HRyCdRrYnme7fTegBYWDjp';
-//const grupch2 = 'https://chat.whatsapp.com/I0Gkm2iSNp22CtXAhMqplW' ; 
+const youtube = 'https://m.youtube.com/channel/UCrNO1yUYW0i3xsJp4NGBh4Q';//ini channel YouTube lo
+//const grupch1 = 'belum ada grup';
+//const grupch2 = 'belum ada grup' ; 
 const
 {
    WAConnection,
@@ -63,11 +63,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@kreasi.editing_official._')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@AriiqChan._')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@kreasi.editing_official`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@reuz.id`)
 })
 
 conn.on('message-new', async(m) =>

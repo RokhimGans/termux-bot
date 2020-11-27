@@ -1,5 +1,5 @@
 {
-  "name": "termux-bot",
+  "name": "CptyMBots",
   "version": "1.0.0",
   "description": "bot wa simple",
   "main": "index.js",
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RokhimGans/termux-bot"
+    "url": "git+https://github.com/AriiqDesign/CptyMBots"
   },
   "keywords": [
     "k"
   ],
-  "author": "Abdur Rokhim",
+  "author": "Ahmad Ariiq Khoironi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RokhimGans/termux-bot/issues"
+    "url": "https://github.com/AriiqDesign/CptyMBots/issues"
   },
-  "homepage": "https://github.com/RokhimGans/termux-bot#readme"
+  "homepage": "https://github.com/AriiqDesign/CptyMBots#readme"
 }
