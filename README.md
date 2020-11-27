@@ -1,4 +1,4 @@
-## 𝙲𝚙𝚝𝚢𝙼𝙱𝚘𝚝𝚜 ☂︎
+## Termux-BOT ☂︎
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
@@ -16,8 +16,8 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 > pkg install ffmpeg
 > pkg install nodejs
 > apt update && apt upgrade
-> git clone https://github.com/AriiqDesign/CptyMBots
-> cd CptyMBots
+> git clone https://github.com/RokhimGans/termux-bot
+> cd termux-bot
 > bash install.sh
 > node index.js
 ```
@@ -52,4 +52,4 @@ ket : ✅ : aktif
 * [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 ## DONASI
-*
+* PULSA : 087848115476
